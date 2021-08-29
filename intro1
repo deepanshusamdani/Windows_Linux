@@ -1,0 +1,13 @@
+# To install the linux based terminal in windows machine.
+
+S1: go to Microsoft Store- download the any kernel of linux
+S2: install that version- eg- ubuntu-20.04
+S3: get your terminal ($ lsb_release -a)
+S4: sudo apt update
+S5: sudo dpkg --configure -a
+S6: sudo apt install python3-pip3
+S7: sudo add-apt-repository universe
+S8: apt --fix-broken install
+
+# then able to install any module/tool/command
+Eg- S9: sudo apt install python3-pip3
